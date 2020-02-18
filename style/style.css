@@ -1,0 +1,135 @@
+@import 'fonts.css';
+
+:root {
+    --os400: 'OpenSans-Regular';
+    --os600: 'OpenSans-SemiBold';
+    --os700: 'OpenSans-Bold';
+    --cod800: 'CodaCaption-ExtraBold';
+    --dan700: 'DancingScript-Bold';
+    --gray: #4f4e4e;
+    --white: #ffff;
+    --green: green;
+    --bgGreen: #5fc18b;
+    --linear: linear-gradient(to bottom, #414165, #090807);
+    
+}
+.header {
+    background: url(../img/Layer\ 1.png) no-repeat center center /cover;
+    padding: 200px 0 100px 0;
+    background-attachment: fixed;
+    
+}
+.logo {
+    font-family: var(--dan700);
+    font-size: 70px;
+    color: var(--white);
+    margin-bottom: 100px; 
+    background: #111;
+    padding: 90px 80px;
+    border-radius: 100%;
+}
+.header-title {
+    background: #111;
+    font-family: var(--cod800);
+    padding: 20px 0;
+    color: var(--white);
+    border-radius: 40px;
+    margin-bottom: 250px;
+}
+.main {
+    padding-top: 70px;
+}
+.main__header {
+    padding: 120px 0 150px;
+
+}
+.main__header-icon{
+    font-size: 150px;
+    color: var(--green);
+    margin-right: 35px;
+
+}
+.main__header-title {
+    font-family: var(--os600);
+    font-size: 40px;
+    
+}
+.main__header-desc{
+    font-family: var(--os700);
+    font-size: 17px;
+    color: var(--gray);
+    width: 265px;
+}
+.main__header-i {
+    font-size: 150px;
+    color: red;
+    margin-right: 35px;
+}
+.container-fluid {
+    background: var(--bgGreen);
+background-attachment: fixed;
+padding-bottom: 130px;
+}
+.main__icon {
+    font-size: 150px;
+    color: var(--white);
+    margin: 100px 0 50px 0;
+}
+.main__main {
+    width: 650px;
+    padding-bottom: 320px;
+}
+.main__main-title {
+    font-family: var(--os600);
+    font-size: 40px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.main__main-desc {
+    font-family: var(--os400);
+    font-size: 18px;
+    color: var(--white);
+}
+.main__footer-icon {
+    font-size: 170px;
+    color: var(--white);
+
+}
+.main__footer-title {
+    font-family: var(--os600);
+    font-size: 50px;
+    color: var(--white);
+}
+.main__footer-desc {
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--os400);
+    margin-bottom: 30px;
+
+}
+.main__footer-link {
+    color: var(--white);
+    font-size: 30px;
+    border: 3px var(--white) solid;
+    padding: 7px 40px;
+    border-radius: 20px;
+}
+.main__footer-right a {
+    text-decoration: none;
+    list-style: none;
+} 
+.main__footer-link:hover {
+    color: red;
+    font-size: 31px;
+    transition: 1s;
+}
+.footer {
+    background: var(--bgGreen);
+    width: 100%;
+    height: 80px;
+}
+.footer__title {
+    font-size: 18px;
+    font-family: var(--os400);
+}
